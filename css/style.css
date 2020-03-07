@@ -1,0 +1,70 @@
+/*start main rules*/
+body{background-color: gray;background-color: rgb(44,47,18);font-family: "Palatino Linotype"}
+/*end main rules*/
+
+
+/*start header*/
+.header {overflow: hidden;}
+.header .image {
+	float: left;
+	margin-right: 10px;
+}
+.header .image img{width:90px;height: 60px;}
+.header .titre{
+	color:antiquewhite
+}
+.header .titre h1 {margin: 0;}
+.header .titre p {margin-left: 60px}
+.header .titre span{color: rgb(140,119,171);}
+/*end header*/
+
+/*start inter*/
+.inter{overflow: hidden;}
+.inter .lateral1{
+	float: left;width:20% ;
+	margin-right: 2%;
+	color: orange;
+	background-color: rgb(24,26,18);}
+.inter .lateral1 ul li{ 
+	list-style: none;
+	cursor: pointer;
+	margin-top: 10px;}	
+.inter .lateral1 ul li a{text-decoration: none;color: orange}
+.inter .lateral1 ul li:last-child{margin-bottom: 50px}
+.inter .principale{
+	float: left;width:42%;
+	margin-right: 2%;
+	background-color: rgb(203,216,136);
+	padding: 20px;
+	color: rgb(24,26,18); 
+	}
+.inter .principale .text{
+	background-color: white;
+	margin: 40px;
+	padding:30px;
+	text-align: center;
+}
+.inter .lateral2{
+	float: left;
+	width: 25%;
+	margin-right: 3%;
+	background-color: rgb(140,119,171);
+	padding-left: 10px;
+	color: rgb(203,216,136);
+	}
+.inter .lateral2 a{color: orange}
+.inter .lateral2 li{padding-bottom: 3px}
+.inter .lateral2 img{
+	height: 20px;
+	width:20px;
+	margin-left: 5px;
+    margin-bottom: -5px;
+}
+
+/*end inter*/
+
+/*start footer*/
+.footer{margin:20px;color: rgb(203,216,136);}
+.footer p span:first-child{color: rgb(140,119,171);}
+.footer span{color:yellow}
+/*end footer*/

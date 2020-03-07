@@ -1,0 +1,168 @@
+/*start main rules*/
+body{
+	background-image: url('../design.jpg');
+    font-family:Lucida Sans Unicode,Trebuchet MS,arial,comic sans MS;
+	line-height: 1.15;
+}
+.clearit
+{clear:both;}
+.container{
+	width: 1200PX;
+	background-color: #00A9DC;
+	margin:auto;
+	margin-top: 50px;
+	overflow: hidden;
+	box-shadow: -25px 25px 50px gray;
+}
+.container2 {width: 70%;margin:auto;}
+.container3 {width: 90%;margin:auto;}
+.mywhitehr{
+	background-color: #DEDCDF;
+	height:2px;
+	margin-bottom: 35px;
+}
+.mygrayhr{
+	background-color: #3E3E40;
+	height:2px;
+	margin-bottom: 35px;
+}
+.mybluehr{
+	width: 10%;
+	height: 100%;
+	background-color: #00A9DC;
+}
+i{color: #20A9DC;margin-right: 20px;float:left;}
+/*end main rules*/
+
+/*start first*/
+.first{
+	float:left;
+	width:34%;
+	height:100%;
+}
+.first .image{;}
+.first .me{
+	background-color: #3E3E40;
+	width: 100%;
+	height:55% ;
+	color:#DEDCDF
+}
+.first .me .image {}
+.first .me h1:first-of-type {margin:45px 0 0 0;color:#00A9DC;font-weight:200;}
+.first .me h1:last-of-type {margin:0 0 8px 0; line-height: 20px;color: #eeecef }
+.first .me span {color:#eeecef }
+.first .me h3 {margin-top: 60px;margin-bottom:2px;color: #eeecef }
+.first .contact{
+	background-color: #DEDCDF;
+	width: 100%;
+	height:900px ;
+	color: #3E3E40;
+	overflow: hidden;margin-top: 20px
+}
+.first .container2 {margin-top:18px}
+.first .contact h3 {color: #00A9DC; margin: 10px 0 2px;padding-top:20px }
+.first .contact .icon{float:left; width:13%}
+.first .contact .paragraph {float:right;width: 87%;}
+.first .contact .paragraph p{margin-top:0;}
+/*end first*/
+
+/*start second*/
+.second{
+	float: right;
+	width:64%;
+	height:100%;
+
+}
+/*start experience*/
+.second .experience{
+	background-color: #3E3E40;
+	height: 33.33%;
+	color:#DEDCDF;
+	margin-bottom: 20px;
+	overflow: hidden;
+}
+.second .experience h3 {
+	margin:0 0 2px 0;
+	padding-top:40px;
+	color:#eeecef;			
+	float:left;			
+}
+.second .experience .mywhitehr {margin-left:43px }
+.second .experience .periode {float: left; width:23.33%}
+.second .experience .all {height: 150px;}
+.second .experience	.verticale {float: left; width:2.1px;height: 100%; margin:0 30px 0 0;}
+.second .experience	.verticale .back {width: 100%;height: 100%;background-color:#DEDCDF }
+.second .experience	.verticale .inside {width: 100%;height: 5%;background-color:#00A9DC; }
+.second .experience .details {float: left;}
+.second .experience .details span{font-size:25px}
+.second .experience .all-of-all {margin-bottom: 30px}
+
+
+/*end experience*/
+
+/*start education*/
+.second .education{
+	background-color: #DEDCDF; 
+	height: 33.33%;
+	overflow: hidden;
+	margin-bottom: 20px;
+	color: #3E3E40;
+}
+.second .education h3 {
+	margin:0 0 2px 0;
+	padding-top:40px;
+	color:#00A9DC;			
+	float:left;			
+}
+.second .education .mygrayhr {margin-left:38px }
+.second .education .periode {float: left; width:23.33%}
+.second .education .all {height: 150px;}
+.second .education .verticale {float: left; width:2.1px;height: 100%; margin:0 30px 0 0;}
+.second .education .verticale .back {width: 100%;height: 100%;background-color:#3E3E40;}
+.second .education .verticale .inside {width: 110%;height: 5%;background-color:#00A9DC;}
+.second .education .details {float: left;}
+.second .education .details span{font-size:25px}
+.second .education .all-of-all {margin:30px 0 30px 0}
+
+/*start skills*/
+
+} 
+.skills > .mygrayhr {
+	background-color: #3E3E40;
+	height:2px;
+	width:94%;
+	margin:0 0 35px 0;
+	float:right;
+}
+
+.second .education .skills .div1{
+	float: left;
+	width:50%;
+}
+.second .education .skills .div2{
+	float: right;
+	width:50%;
+}
+/*end skills*/
+/*end education*/
+
+/*start reference*/
+.second .reference{
+	background-color: #3E3E40;
+	overflow: hidden;
+    color: #DEDCDF;
+}
+.second .reference h3{margin: 40px 0 2px 0}
+.second .reference .mywhitehr {margin-left: 40px;}
+.second .reference .part1{
+	display:inline-block;
+	float:left;
+	width: 50%;
+}
+.second .reference .part2{
+	float:right;
+	width:50%
+}
+/*end reference*/
+
+/*end second*/
